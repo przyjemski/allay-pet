@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "files": [
+    {
+      "file": "allay.png",
+      "dimensions": [
+        1536,
+        2288
+      ],
+      "sha256": "447269352d1e6484e98959a0e8320965b9ab6db3dbb8686d57a6c5bf1a70d2e3",
+      "rgba": true
+    },
+    {
+      "file": "allay-legacy-v1.png",
+      "dimensions": [
+        1536,
+        1872
+      ],
+      "sha256": "24751fce0518e4f1af58f9932b0c4924960d942760ba8fc58c36dc6153b3c3b2",
+      "rgba": true
+    }
+  ],
+  "installLinkParametersValid": true
+}

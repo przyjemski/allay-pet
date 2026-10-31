@@ -1,0 +1,24 @@
+{
+  "name": "Allay",
+  "description": "Minecraft Allay working at a command block",
+  "spriteVersionNumber": 2,
+  "imageUrl": "https://raw.githubusercontent.com/przyjemski/allay-pet/main/allay.png",
+  "width": 1536,
+  "height": 2288,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "framesPerRow": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "sha256": "447269352d1e6484e98959a0e8320965b9ab6db3dbb8686d57a6c5bf1a70d2e3"
+}

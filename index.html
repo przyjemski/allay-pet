@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Allay — dodaj peta</title><meta name="description" content="Dodaj Allaya pracującego przy command blocku jako animowanego peta.">
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0b151b;color:#e5f5f7}
+*{box-sizing:border-box}body{margin:0;padding:40px 22px}main{max-width:760px;margin:auto}
+.eyebrow{color:#70dce8;letter-spacing:.15em;font-size:12px;text-transform:uppercase}h1{font-size:clamp(48px,10vw,84px);line-height:1;margin:22px 0 18px;letter-spacing:-.05em}
+.lead{font-size:19px;line-height:1.6;color:#bad2d8;max-width:580px}.hero{display:flex;align-items:center;gap:36px;flex-wrap:wrap}.pet{width:192px;height:208px;image-rendering:pixelated;background:#11252e;border:1px solid #254651;border-radius:12px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 18px}a{color:#72dfed;text-underline-offset:4px}.button{display:inline-block;text-decoration:none;padding:15px 22px;border-radius:7px;font-weight:750;background:#64e5ed;color:#07202b}.secondary{background:#19353f;color:#d2eff2}
+.note{font-size:14px;color:#a9c2c9;line-height:1.7}.steps{padding:24px 28px;background:#10252d;border:1px solid #24434c;border-radius:12px;margin:28px 0;line-height:1.8}.steps h2{margin-top:0;font-size:21px}.steps ol{padding-left:20px}.links{display:flex;gap:18px;flex-wrap:wrap}footer{border-top:1px solid #24434c;margin-top:38px;padding-top:20px;font-size:12px;color:#91aeb6;line-height:1.7}
+@media(max-width:500px){body{padding-top:28px}.hero{gap:12px}.pet{width:168px;height:182px}.actions a{width:100%;text-align:center}}
+@media(prefers-reduced-motion:reduce){.pet{display:none}.still{display:block!important;width:100%;height:auto}}
+</style></head><body><main>
+<p class="eyebrow">Minecraft-inspired desktop companion</p>
+<div class="hero"><div><h1>Allay.</h1><p class="lead">Mały pomocnik do wielkich zadań.<br>Gdy pracujesz, on obsługuje command block.</p></div><img class="pet" src="working.gif" alt="Allay pracujący przy command blocku" width="192" height="208"><img class="still" style="display:none" src="stills.png" alt="Allay: odpoczynek, powitanie, skok i praca"></div>
+<div class="actions"><a class="button" href="codex://pets/install?name=Allay&amp;imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fprzyjemski%2Fallay-pet%2Fmain%2Fallay.png&amp;description=Minecraft+Allay+working+at+a+command+block&amp;spriteVersionNumber=2">Dodaj Allaya ↗</a><a class="button secondary" href="allay.png" download>Pobierz PNG</a></div>
+<p class="note">Przycisk otworzy okno dodawania peta w obsługiwanej aplikacji ChatGPT desktop / Codex. Potwierdź dodanie w aplikacji. Nie musisz instalować skryptów ani podawać żadnych kluczy.</p>
+<section class="steps"><h2>Trzy kroki i gotowe</h2><ol><li>Kliknij <strong>Dodaj Allaya</strong> i zezwól na otwarcie aplikacji.</li><li>Potwierdź instalację, a potem wybierz <strong>Allaya</strong> w ustawieniach Pets.</li><li>Jeśli pet jest ukryty, wybierz <strong>Show pet / Pokaż peta</strong> lub wpisz <strong>/pet</strong>.</li></ol><p class="note">Przycisk nie reaguje? Zaktualizuj aplikację lub dodaj pobrany PNG przez Upload pet, jeśli ta opcja jest dostępna. Importer wymaga 1536×1872? Pobierz <a href="allay-legacy-v1.png" download>wersję v1</a> bez dodatkowych kierunków patrzenia.</p></section>
+<nav class="links" aria-label="Dodatkowe pliki"><a href="https://github.com/przyjemski/allay-pet">Repozytorium i instrukcja</a><a href="preview.gif">Wszystkie animacje</a><a href="contact-sheet.png">Arkusz klatek</a><a href="SHA256SUMS">Sumy kontrolne</a></nav>
+<footer>Dziewięć animacji · Szesnaście kierunków patrzenia · Command block podczas pracy<br>Nieoficjalny projekt fanowski z grafiką stworzoną z pomocą AI. Bez powiązania z Mojang, Microsoft ani OpenAI.</footer>
+</main></body></html>
